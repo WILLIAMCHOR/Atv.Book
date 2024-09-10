@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style:	none;
+    border: 0
+}
+body {
+    margin: 0 25vw 0 25vw;
+    color: #232323;
+}
+/* ============ HEADER ============ */
+header {
+    padding-top: 2vw;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #868686;
+}
+header nav a strong {
+    color: #232323;
+}
+header nav ul .espaco {
+    margin: 0 35px 0 35px;
+}
+/* ============ MAIN ============ */
+main section {
+    margin: 5vw 0 5vw 0;
+}
+main .divFlex {
+    display: flex;
+}
+main .topo {
+    display: flex;
+    justify-content: space-between;
+}
+main .topo h1 {
+    font-size: 50px;
+}
+main .topo h1 span {
+    color: #47C183;
+}
+main .topo p {
+    margin: 2vw 0 2vw 0;
+    font-size: 20px;
+    line-height: 1.4em
+}
+main .topo div .divFlex {
+    align-items: center;
+}
+main .topo button {
+    padding: 25px 50px 25px 50px;
+    background: #232323;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-right: 2vw;
+    cursor: pointer;
+    transition: scale 0.2s;
+}
+main .topo button:hover {
+    scale: 105%;
+    transition: 0.2s;
+}
+main .topo button:active {
+    opacity: 0.6;
+}
+main .topo a {
+    font-size: 18px;
+    color: black;
+}
+main h2 {
+    font-size: 24px;
+    text-align: center;
+}
+main .corpo div {
+    margin: 2vw 0 2vw 0;
+    justify-content: center ;
+    align-items: center;
+}
+main .corpo div p {
+    font-size: 18px;
+    line-height: 1.4em
+}
+main .corpo div .esquerda {
+    margin-left: 3vw;
+}
+main .corpo div .direita {
+    margin-right: 3vw;
+}
+main .corpo .divFlex div p {
+    margin-bottom: 1vw;
+}
+main .corpo .divFlex div p:last-child {
+    margin-bottom: 0;
+}
+/* ============ FOOTER ============ */
+footer {
+    padding-bottom: 2vw;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+footer ul .ulBlock {
+    display: block;
+}
+footer ul .ulBlock li {
+    font-size: 16px;
+    line-height: 1.4em;
+}
+footer ul .ulFlex .espaco {
+    margin: 0 40px 0 40px;
+}
+footer ul .ulFlex a {
+    color: #868686;
+    font-size: 14px;
+}
